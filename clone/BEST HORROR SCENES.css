@@ -1,16 +1,87 @@
 body{
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
 }
 
 header{
+    color: #E6473C;
+    background-color: #F0F0F0;
     width: 33%;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    font-family: Roboto, sans-serif;
+    position: fixed;
 }
 
+.sns :link { color: black; text-decoration: none;}
+.sns :visited { color: black; text-decoration: none;}
+.sns{
+    font-size: 18px;
+    margin-top: 10px;
+    text-decoration-color: black;
+    color: black;
+    margin-left: 73px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 45%;
+}
+
+a{
+    opacity: 0.5;
+    border-bottom: 2px solid rgba(0,0,0,0.8);
+    padding-bottom: 3px;
+}
 header h1 {
-    color: #E6473C;
-    font-size: 85px;
+    margin-top: 91px;
+    margin-left: 73px;
     width: 50%;
+    font-size: 80px;
+    letter-spacing: 5px;
+    line-height: 80px;
+}
+.p{
+    margin-left: 73px;
+    width: 55%;
+}
+p:nth-child(2){
+    line-height: 35px;
+    font-size: 30px;
+}
+
+p:nth-child(3){
+    font-size: 20px;
+    line-height: 21px;
+}
+
+p:nth-child(5){
+    color: black;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+main{
+    margin-left: 33%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    height: 5000vh;
+    background-color: #E6473C;
+}
+
+
+.sort{
+    position: fixed;
+    width: 77%;
+    height: 17%;
+    color: white;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.sort p{
+    margin-top: 5%;
+    margin-right: 10%;
+    font-size: 25px;
 }
