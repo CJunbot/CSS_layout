@@ -66,22 +66,29 @@ main{
     margin-left: 33%;
     display: flex;
     flex-direction: column;
-    align-content: space-between;
-    height: 5000vh;
+    justify-items: center;
+    align-items: center;
+    height: 500vh;
     background-color: #E6473C;
 }
 
-
-.sort{
-    position: fixed;
-    width: 77%;
-    height: 17%;
+main h1{
     color: white;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    font-size: 80px;
 }
 
-.sort p{
-    margin-top: 5%;
-    margin-right: 10%;
-    font-size: 25px;
+main h4{
+    color: white;
+    font-size: 30px;
+}
+section{
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.movie_header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
 }
